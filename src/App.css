@@ -1,0 +1,80 @@
+/* body{
+  background-color: rgb(245, 239, 230);
+} */
+.card-container{
+  /* padding: 20px; */
+  margin: 20px auto;
+  background-color: #fff;
+  margin: 0px0;
+  box-shadow: none !important;
+ 
+  /* height: 100% !important; */
+}
+.card-container h2{
+  text-align: center;
+  color: rgb(69, 58, 44);
+}
+
+.footer{
+  color: rgb(74, 74, 225);
+  cursor: pointer;
+}
+
+.file input{
+  border-bottom: 1px solid rgb(181, 171, 171);
+  width: 100%;
+  margin: 40px 0;
+}
+/* .welcome{
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgb(54, 49, 42);
+} */
+/* .welcome h2{
+  width: 100% !important;
+  height: 100% !important;
+} */
+
+/* .moving-h2 {
+  position: relative;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100% - 100px);
+  }
+} */
+
+.moving-h2 {
+  position: relative;
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.card{
+  font-size:larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* color: red; */
+}
+img{
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.ul li{
+  color: red !important;
+}

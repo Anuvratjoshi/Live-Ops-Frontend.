@@ -1,0 +1,3 @@
+-> fetch all the offers from db in Listedoffer.js
+->after clicking on submit go to the Listedoffer.js where u can see all the offers
+-> Make a button (build more offer) link it to the offer.js in Listedoffer page
